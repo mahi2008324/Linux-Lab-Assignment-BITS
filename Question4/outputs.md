@@ -25,7 +25,7 @@
 ## Output 2: `wc -l sample.log`
 
 ```
-50 sample.log
+52 sample.log
 ```
 
 ---

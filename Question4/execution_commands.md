@@ -28,7 +28,7 @@ cat sample.log
 `cat` outputs the entire contents of `sample.log`. This gives an overview of the log format: each entry has a timestamp, severity level (INFO/WARNING/ERROR), and a message.
 
 **Observation:**  
-50 log entries are displayed with a mix of INFO, WARNING, and ERROR levels. This confirms the log file is present and properly formatted.
+52 log entries are displayed with a mix of INFO, WARNING, and ERROR levels. This confirms the log file is present and properly formatted.
 
 ---
 
@@ -42,7 +42,7 @@ wc -l sample.log
 `wc -l` counts the number of lines in the file. Each line = one log entry. This gives the baseline count before filtering.
 
 **Observation:**  
-Output shows `50 sample.log`, confirming there are 50 log entries total in the file.
+Output shows `52 sample.log`, confirming there are 52 log entries total in the file.
 
 ---
 
@@ -56,7 +56,7 @@ grep -c "ERROR" sample.log
 `grep -c` counts matching lines instead of printing them. This quickly reports how many ERROR entries exist in the log without displaying them all.
 
 **Observation:**  
-Output: `10` — there are 10 ERROR entries in the 50-line log file.
+Output: `10` — there are 10 ERROR entries in the 52-line log file.
 
 ---
 
