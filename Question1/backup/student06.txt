@@ -1,0 +1,17 @@
+Assignment Submission — Student 06
+Name: Frank Patel
+Roll Number: CS2024006
+Subject: Operating Systems
+Date: 2026-07-20
+
+Answer 1:
+Context switching is the process of saving and restoring process state when the CPU
+switches between processes. It involves saving the PCB of the current process.
+
+Answer 2:
+Mutual exclusion ensures only one process accesses a critical section at a time.
+Peterson's algorithm provides a software solution without hardware support.
+
+Answer 3:
+The inode stores metadata about a file including permissions, timestamps, and pointers
+to data blocks. The directory maps filenames to inode numbers.

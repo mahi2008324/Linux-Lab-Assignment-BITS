@@ -1,0 +1,17 @@
+Assignment Submission — Student 05
+Name: Emma Wilson
+Roll Number: CS2024005
+Subject: Operating Systems
+Date: 2026-07-20
+
+Answer 1:
+System calls are the interface between user-space programs and the kernel. They include
+operations like read(), write(), fork(), exec(), and exit() in Linux.
+
+Answer 2:
+The page replacement algorithm determines which page to swap out when memory is full.
+LRU (Least Recently Used) is optimal in practice; OPT is theoretically optimal.
+
+Answer 3:
+Signals are software interrupts sent to processes. Common signals include SIGTERM for
+graceful termination, SIGKILL for forced kill, and SIGCHLD for child status changes.

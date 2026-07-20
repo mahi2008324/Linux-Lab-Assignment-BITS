@@ -1,0 +1,18 @@
+Assignment Submission — Student 08
+Name: Henry Brown
+Roll Number: CS2024008
+Subject: Operating Systems
+Date: 2026-07-20
+
+Answer 1:
+CPU scheduling determines which process gets the CPU next. Priority scheduling
+assigns execution order based on process priority, allowing real-time processes
+to preempt lower-priority tasks.
+
+Answer 2:
+The Banker's Algorithm is used for deadlock avoidance. It simulates resource
+allocation to ensure the system never enters an unsafe state.
+
+Answer 3:
+Socket programming enables network communication between processes. TCP sockets
+provide reliable, ordered delivery while UDP provides fast, connectionless service.

@@ -1,0 +1,17 @@
+Assignment Submission — Student 10
+Name: James Kumar
+Roll Number: CS2024010
+Subject: Operating Systems
+Date: 2026-07-20
+
+Answer 1:
+The fork-exec model in Linux creates a new process by duplicating the parent with fork(),
+then replacing its image with exec(). This enables shell command execution.
+
+Answer 2:
+Memory-mapped files allow file contents to be accessed as memory. mmap() maps file
+regions into the virtual address space, enabling fast file I/O without read/write calls.
+
+Answer 3:
+The /proc filesystem is a virtual filesystem that exposes kernel and process information
+as files. Tools like ps and top read from /proc to display process information.

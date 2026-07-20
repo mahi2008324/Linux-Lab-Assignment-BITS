@@ -1,0 +1,17 @@
+Assignment Submission — Student 01
+Name: Alice Johnson
+Roll Number: CS2024001
+Subject: Operating Systems
+Date: 2026-07-20
+
+Answer 1:
+A process is an instance of a running program. The operating system manages processes
+using a Process Control Block (PCB) that stores state, registers, and memory info.
+
+Answer 2:
+Virtual memory allows programs to use more memory than physically available by using
+disk space as an extension of RAM through demand paging and page replacement algorithms.
+
+Answer 3:
+Semaphores are synchronization primitives used to prevent race conditions in concurrent
+programs. They use P (wait) and V (signal) operations to manage shared resources.

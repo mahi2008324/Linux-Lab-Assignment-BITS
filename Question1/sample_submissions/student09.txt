@@ -1,0 +1,17 @@
+Assignment Submission — Student 03
+Name: Carol Singh
+Roll Number: CS2024003
+Subject: Operating Systems
+Date: 2026-07-20
+
+Answer 1:
+Scheduling algorithms determine CPU allocation order. FCFS, SJF, and Round Robin
+are common algorithms with different trade-offs between fairness and efficiency.
+
+Answer 2:
+Memory segmentation divides programs into logical units like code, data, and stack.
+Each segment has a base address and limit stored in the segment table.
+
+Answer 3:
+Pipes provide inter-process communication by connecting stdout of one process to
+stdin of another. Named pipes (FIFOs) allow unrelated processes to communicate.

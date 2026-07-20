@@ -1,0 +1,17 @@
+Assignment Submission — Student 02
+Name: Bob Martinez
+Roll Number: CS2024002
+Subject: Operating Systems
+Date: 2026-07-20
+
+Answer 1:
+Threads are lightweight processes sharing the same memory space. Multi-threading
+improves performance by allowing concurrent execution within a single process.
+
+Answer 2:
+Deadlock occurs when processes are waiting for resources held by each other.
+Prevention involves breaking one of Coffman's four necessary conditions.
+
+Answer 3:
+File systems organize data on storage devices using inodes, directories, and data blocks.
+The ext4 file system supports journaling for crash recovery.

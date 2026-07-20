@@ -1,0 +1,31 @@
+============================================================
+         UNIVERSITY SUBMISSION BACKUP REPORT
+============================================================
+Date and Time    : Mon Jul 20 21:43:40 IST 2026
+Source Directory : /Users/saichaitu/Desktop/Bits-CLI/Linux-Lab-Assignment/Question1/sample_submissions
+Backup Directory : /Users/saichaitu/Desktop/Bits-CLI/Linux-Lab-Assignment/Question1/backup
+------------------------------------------------------------
+Total files processed : 10
+Duplicate files found : 3
+Unique files backed up: 7
+------------------------------------------------------------
+
+DUPLICATE FILES DETECTED:
+  [DUPLICATE] student04.txt  (identical to: student01.txt)
+  [DUPLICATE] student07.txt  (identical to: student02.txt)
+  [DUPLICATE] student09.txt  (identical to: student03.txt)
+
+------------------------------------------------------------
+
+UNIQUE FILES BACKED UP:
+  [OK] student01.txt
+  [OK] student02.txt
+  [OK] student03.txt
+  [OK] student05.txt
+  [OK] student06.txt
+  [OK] student08.txt
+  [OK] student10.txt
+
+============================================================
+                  END OF REPORT
+============================================================

@@ -1,0 +1,11 @@
+# employees.dat
+# This binary database file is generated automatically when you run:
+#   ./employee_records
+#
+# It cannot be stored as a text file in the repository because it is a
+# binary file containing raw struct data. To view it, use:
+#   hexdump -C employees.dat
+#   od -t d4 employees.dat
+#
+# Expected file size: 480 bytes (5 records × 96 bytes per record)
+# File permissions : rw------- (0600) — owner read/write only
