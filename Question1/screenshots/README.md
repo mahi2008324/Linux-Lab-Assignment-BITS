@@ -1,32 +1,52 @@
 # Screenshots — Question 1
+# Duplicate Detection & Backup Script
 
-This folder contains screenshots taken during the execution of `duplicate_backup.sh`.
+This folder contains **2 screenshots** captured from a real execution of `duplicate_backup.sh`.
 
-## Required Screenshots
+---
 
-| Filename | Description | When to Take |
-|----------|-------------|--------------|
-| `Screenshot-01.png` | Terminal showing `ls -la` output of Question1/ | Before running the script |
-| `Screenshot-02.png` | `md5sum sample_submissions/*.txt` — showing duplicate hashes | After running md5sum manually |
-| `Screenshot-03.png` | Script running — real-time INFO messages | While `./duplicate_backup.sh` is running |
-| `Screenshot-04.png` | Final execution summary in terminal | After script completes |
-| `Screenshot-05.png` | `ls -lh backup/` — showing 7 backed-up files | After script completes |
-| `Screenshot-06.png` | `cat reports/backup_report_*.txt` — full report | After viewing the report |
-| `Screenshot-07.png` | `cat errors.log` — empty or with errors | After running the script |
+## Screenshot 1 — Script Execution (Duplicate Detection)
 
-## How to Take Screenshots on Linux
+**File:** `Screenshot-01-script-execution.png`
+
+![Script Execution](./Screenshot-01-script-execution.png)
+
+**What it shows:**
+- The `duplicate_backup.sh` script being run with `./duplicate_backup.sh`
+- `[INFO] Found 10 file(s) to process` — all 10 student submissions found
+- `[INFO] Backed up: student01.txt` through `student10.txt` — unique files saved
+- `[INFO] Duplicate detected: student04.txt == student01.txt` — 3 duplicates caught (student04, student07, student09)
+- Final **EXECUTION SUMMARY** table: Total=10, Duplicates=3, Unique=7
+
+---
+
+## Screenshot 2 — Generated Backup Report
+
+**File:** `Screenshot-02-backup-report.png`
+
+![Backup Report](./Screenshot-02-backup-report.png)
+
+**What it shows:**
+- `cat reports/backup_report_20260720_214340.txt` — viewing the auto-generated report
+- **DUPLICATE FILES DETECTED** section listing all 3 duplicate pairs
+- **UNIQUE FILES BACKED UP** section listing all 7 unique files marked `[OK]`
+- Report header with timestamp, source directory, and backup directory
+
+---
+
+## How to Reproduce These Screenshots
 
 ```bash
-# Using scrot (install first: sudo apt install scrot)
-scrot 'Screenshot-%02d.png'
+cd Linux-Lab-Assignment/Question1
 
-# Using gnome-screenshot
-gnome-screenshot -f Screenshot-01.png
+# Clean previous run (optional)
+rm -rf backup/ reports/ errors.log
 
-# Using import (ImageMagick)
-import Screenshot-01.png
+# Run the script
+./duplicate_backup.sh
+
+# View the report
+cat reports/backup_report_*.txt
 ```
 
-## How to Take Screenshots on macOS
-
-Use `Cmd + Shift + 4` to capture a selection, or `Cmd + Shift + 3` for full screen.
+Use `Cmd + Shift + 4` (macOS) or `scrot` / `gnome-screenshot` (Linux) to capture.
